@@ -48,7 +48,7 @@ class Body extends Component {
                 <>
                     <Nav logout={this.logout}/>
                     <Switch>
-                        <Route exact path='/' component={TableStudent}/>
+                        <Route exact path='/' component={Login}/>
                         <Route exact path='/students' component={TableStudent}/>
                         <Route path='/student/:id' component={Create}/>
                         <Route path='/student' component={Create}/>
